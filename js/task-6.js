@@ -24,17 +24,17 @@ function createBoxes(amount) {
   boxes.innerHTML = '';
 const fragment = document.createDocumentFragment();
   let size = 30;
-  let margin = 2;
+  let margin = 8;
   
   for (let i = 0; i < amount; i += 1) {
     const box = document.createElement("div");
     box.style.width = `${size}px`;
     box.style.height = `${size}px`;
     box.style.backgroundColor = getRandomHexColor();
-    box.style.marginBottom = `${margin}px`;
+    box.style.marginRight = `${margin}px`;
     fragment.appendChild(box);
     size += 10;
-    margin += 2;
+    margin += 4;
 }
   boxes.appendChild(fragment);
 }

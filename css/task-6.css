@@ -1,0 +1,72 @@
+body {
+    background: #f6f6fe;
+}
+
+#controls {
+    margin-bottom: 24px;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: cross axis;
+}
+
+input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    outline: transparent;
+    margin-right: 16px;
+}
+
+input:hover {
+    border: 1px solid #000;
+}
+
+button[data-create] {
+    background: #4e75ff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+    margin-right: 16px;
+}
+
+button[data-create]:hover {
+    background: #6c8cff;
+}
+
+button[data-destroy] {
+    background: #ff4e4e;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+}
+
+button[data-destroy]:hover {
+    background: #ff7070;
+}

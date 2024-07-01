@@ -30,7 +30,7 @@ let markup = " ";
 
 for (let i = 0; i < images.length; i += 1) {
   const { url, alt } = images[i];
-  markup += `<li><img src="${url}" alt="${alt}" style="width: 350px; height: 200px;"></li>`;
+  markup += `<li><img src="${url}" alt="${alt}" style="width: 360px; height: 300px;"></li>`;
 }
 
 galleryList.insertAdjacentHTML('beforeend', markup);
